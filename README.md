@@ -1,16 +1,25 @@
 # Archelec NLP Project
 
-This project analyses the Archelec corpus using NLP methods.
+This project analyses political manifestos from the Archelec corpus using NLP techniques.
 
-The objective is to quantify "wooden language" ("langue de bois") in French political manifestos through semantic density and to explore semantic similarity between documents using TF-IDF and embeddings.
+## Objectives
+
+- Measure semantic density ("wooden language")
+- Compare TF-IDF and embedding-based similarity
+- Analyse semantic relationships between documents
 
 ## Methods
 
 - Text preprocessing
-- Semantic density
+- Semantic density metric
 - TF-IDF baseline
 - Sentence embeddings
 - Cosine similarity ranking
+
+## Results
+
+Embedding-based similarity captures semantic relationships better than TF-IDF.  
+Semantic density highlights differences in informational content across documents.
 
 ## Author
 
